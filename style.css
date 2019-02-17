@@ -1,0 +1,49 @@
+
+*{ 
+    
+    font-size: 20px
+    font-family: 'Franklin Gothic Medium',sans-serif;
+}/* применяется ко всему документу*/
+html{
+    background: url('img/stat.jpg') ;
+    background-size: cover;
+}
+body{
+   
+}
+header{
+    position: absolute;
+    top: 0%;
+}
+h1{
+    
+}
+p{  
+    position:absolute;
+    top:8%;
+    left: 12%;
+    color: red;
+}
+#history_message {
+    position:absolute;
+    top:13%;
+    left: 0;
+    border:2px outset #3c95b8;
+    height: 55%;
+    width: 35%;
+    margin: 10px;/*внешние отступы*/
+    padding: 10px;/*внутренние отступы*/
+    border-radius: 20px;
+}
+#send_message {
+    position:absolute;
+    top:10%;
+    right: 0;
+    border:2px outset #3c95b8;
+    height: 25%;
+    width: 35%;
+    margin: 10px;/*внешние отступы*/
+    padding: 10px;/*внутренние отступы*/
+    border-radius: 20px;
+}
+

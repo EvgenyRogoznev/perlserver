@@ -1,0 +1,80 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Чат</title>
+    <meta name="description" content="чат без регистрации"/>
+    <meta name="keywords" content="чат тестовый"/>
+    <link rel="icon" type="image/png" href="img/iconchat.png" id="find">
+
+    <link rel="stylesheet" type="text/css"  href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!-- путь к библиотеке для подключения скриптов-->
+
+</head>
+<body >
+        <script type="text/javascript">/*
+            let link= $('#find').;
+            for (key in link) {
+                alert(key);
+            }
+            let hr= link;
+            alert(link);
+    */
+        </script>
+    <header>
+        <h1>Чат без регистрации</h1>
+        <hr />
+    </header>
+        <p>история сообщений</p>
+        <div id="history_message">
+            сюда получать сообщения пользователей
+            
+        </div>
+
+<!--   пример захвата содержимого контейнера в переменную
+
+                <script type="text/javascript">
+                    let test= $('#imiy').html();
+                    alert (test);
+                </script>
+
+-->
+        <div id="send_message">
+
+<!-- разобратся с action--> 
+           <form name="test1"  action="где будет обрабатыватся форма" method="get">
+                <label for="imiy">
+                    введите ваше имя 
+                </label>
+                    <input type="text" value="Гость" 
+                        placeholder="Гость" 
+                        name="namePolzovatel" 
+                        title="Имя может состоять только из букви пробелов"
+                        id="imiy" maxlength="30" 
+                    />
+            </form>        
+
+
+            <form name="test2"  action="где будет обрабатыватся форма" method="get">
+                <textarea 
+                    rows="10" 
+                    cols="45"
+                    name="text"
+                    title="Введите ваше сообщение"> 
+
+                </textarea>
+                <input type="button"
+                    id="butt"
+                    onclick="try()"
+                    value="отправить без перезагрузки(для ajax)"
+                />
+
+<!-- возможно так можно получить имя пользователя, непонятно с местом обработки формы
+                
+-->
+                <!-- <input type="submit" value="отправить с перезагрузкой для php"/>-->
+            </form> 
+        </div>      
+    <footer></footer>
+</body>
+</html>

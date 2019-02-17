@@ -1,0 +1,61 @@
+
+*{ 
+    
+    font-size: 20px
+}/* применяется ко всему документу*/
+html{background: url('img/stat.jpg') no-repeat center ;}
+body{
+    
+}
+h3{color: aqua}
+#one {color: rgb(197, 88, 24)}
+p{color: rgb(52, 117, 58)}
+/*p-селектор в скобках блок объявления стилей color-свойство, цвет значение*/
+/*ссылатся можно  на тэг, на идентификатор id применяется только для одного элемента
+можно ссылатся к классу */
+h3.hi { color:red}
+/*показываем что применяется  к тегу h3 с классом hi*/
+.hi { background-color:red}
+p i {background-color:greenyellow }/*для всех тегов p в которых есть тег i применить стиль*/
+p,h1{
+    font-weight: 800}
+    /*псевдоклассы и псевдоэлементы после :*/
+p#exemple:first-letter{
+font-size: 50px
+}
+p#exemple:first-line{
+    color: blueviolet
+    }
+.href{
+    color:rgb(121, 100, 100);
+    }
+.href:hover{
+    color: black
+}
+.href:active{
+    color: azure
+}
+.href:visited{
+    color: rgb(26, 223, 223)
+}
+#textstyl {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    text-decoration: overline;
+    text-align: right;
+    text-indent: 500px;
+    text-transform: uppercase;
+    word-spacing: 50px;
+    letter-spacing: 100px;
+    line-height: 120%;
+}
+/*БЛОКИ*/
+#test_block{
+    border:2px outset  silver;
+    height: 200px;
+    width: 500px;
+    margin: 10px;/*внешние отступы*/
+    padding: 10px;/*внутренние отступы*/
+    border-radius: 50px;
+}
