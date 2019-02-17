@@ -116,7 +116,7 @@ __DATA__
     }
     h1{
         
-    }"@g"
+    }
     p{  
         position:absolute;
         top:8%;
