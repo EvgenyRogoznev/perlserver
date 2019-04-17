@@ -55,7 +55,7 @@ post '/foo' => sub {
     $d_b_connect->do("INSERT INTO  msg_history (chat_user_name, msg) VALUES (?,?)", {}, ($name_filtred, $msg_filtred))||
     die "Can not insert  " .  DBI->errstr;
     $d_b_connect->disconnect;
-    $c->render(template => 'index');
+    $c = $c->redirect_to('/');
 
 };
 
